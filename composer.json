@@ -1,0 +1,38 @@
+{
+    "name": "algotrig/algotrig-php-core",
+    "description": "A lightweight core PHP library for integrating Zerodha Kite Connect with AlgoTrig, providing a foundation for custom trading algorithms.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "algotrading",
+        "zerodha",
+        "kiteconnect",
+        "php",
+        "trading",
+        "algotrig"
+    ],
+    "homepage": "https://github.com/AlgoTrig/algotrig-php-core",
+    "support": {
+        "source": "https://github.com/AlgoTrig/algotrig-php-core",
+        "issues": "https://github.com/AlgoTrig/algotrig-php-core/issues"
+    },
+    "authors": [
+        {
+            "name": "AlgoTrig - Chitrang Shah",
+            "email": "algotrig@outlook.com",
+            "homepage": "https://algotrig.in",
+            "role": "Founder"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "AlgoTrig\\PhpCore\\": "src/"
+        }
+    },
+    "require": {
+      "php": "^8.0",
+      "zerodha/phpkiteconnect": "^4.2"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

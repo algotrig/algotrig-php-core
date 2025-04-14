@@ -1,0 +1,9 @@
+# Normalize line endings
+* text=auto
+
+# Exclude non-essential files from export (e.g., when downloaded via Composer)
+README.md export-ignore
+LICENSE export-ignore
+.gitattributes export-ignore
+
+
